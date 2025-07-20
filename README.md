@@ -1,19 +1,17 @@
-# CDSExp1
-This is the repository for the first exp for CDS
+The first part of hello world program is #include<iostream> where #include is a preproccessor directive.
 
-// Online C++ compiler to run C++ program online
-#include <iostream>
-using namespace std;
+iostream is a library for standard input output functions
 
-int main() {
-    int num1, num2;
+cin and cout are input output functions
 
-    cout << "Enter first number";
-    cin >> num1;
+return 0 ends the program
 
-    cout << "Enter second number";
-    cin >> num2;
+Calc
+The calc code takes input using the cin function
 
-    return 0;
-}
+And performs various basic functions like addition subtraction etc
+
+
+
+
 
