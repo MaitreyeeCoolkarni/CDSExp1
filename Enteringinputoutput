@@ -1,15 +1,39 @@
-// Online C++ compiler to run C++ program online 
 #include<iostream>
 using namespace std;
 
-int main() { 
-int num1, num2;
+int main(){
 
-cout << "Enter first number";
-cin >> num1;
+    cout<<"Hello World";
 
-cout << "Enter second number";
-cin >> num2;
+    return 0;
+}
 
-return 0;
+//Program 2
+//Calculator
+
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    float num1, num2;
+
+    cout<<"Enter Num1:";
+    cin>>num1;
+    cout<<"Enter Num2:";
+    cin>>num2;
+
+    int sum=num1+num2;
+    cout<<"Addition of Numbers is:"<< sum<< endl;
+
+    int sub=num1-num2;
+    cout<<"Subtraction of Numbers is:"<< sub<< endl;
+
+    int multi=num1*num2;
+    cout<<"Multiplication of Numbers is:"<< multi<< endl;
+
+    float div=num1/num2;
+    cout<<"Division of Numbers is:"<< div;
+    
+    return 0;
 }
