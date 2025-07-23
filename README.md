@@ -42,11 +42,9 @@ CIN:In C++, cin is an object of the iostream class, defined in the <iostream> he
 
 ENDL:In C++, endl is a manipulator defined in the <iostream> header within the std namespace. It is used with the cout object to insert a newline character (\n) into the output stream and flush the output buffer to ensure the output is immediately displayed on the console.
 
-Conclusion:
+CONCLUSION:
 From these two programs we learn about standard input/output functions.
-
 Also we learn about initialization of variables.
-
 We also learn about terms like endl,preproccessor directives.
 
 
