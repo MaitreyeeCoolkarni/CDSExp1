@@ -32,8 +32,9 @@ They can be of data type int,float etc
 Take input for these variables using cin
 
 Use normal + for addition ,- for subtraction , * for multiplication and / for division
+Store the addition/division etc in diffrent variables 
 
-Print the outputs using cout
+Print the outputs using cout on these variables
 
 THEORY:
 
