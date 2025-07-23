@@ -36,6 +36,7 @@ Use normal + for addition ,- for subtraction , * for multiplication and / for di
 Print the outputs using cout
 
 THEORY:
+
 CIN:In C++, cin is an object of the iostream class, defined in the <iostream> header, used to read input from the standard input stream, typically the keyboard. It is part of the C++ Standard Library and is used with the >> operator to extract data (e.g., integers, floats, strings) from the input stream.
 
 ENDL:In C++, endl is a manipulator defined in the <iostream> header within the std namespace. It is used with the cout object to insert a newline character (\n) into the output stream and flush the output buffer to ensure the output is immediately displayed on the console.
