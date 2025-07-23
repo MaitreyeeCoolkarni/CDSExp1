@@ -1,60 +1,80 @@
-//HELLO WORLD PROGRAM
+# Hello World and Calculator Program in C++
 
-Aim-To study the basic input/output structure and basic structure of a C++ code
-Apparatus-Programiz/VS code
+---
 
-THEORY:
+## Program 1: Hello World
 
-The hello world program uses cout function
-The library needed for it (iostream) has been included in it
-IOSTREAM:In C++, iostream is a header file in the C++ Standard Library that provides functionality for input and output operations. It defines objects and classes for handling input from sources like the keyboard (standard input) and output to destinations like the console (standard output).
+**Aim:** To study the basic input/output structure and basic structure of a C++ code  
+**Apparatus:** Programiz / VS Code
 
-#INCLUDE(preprocessor directive)-A preprocessor directive in C++ is a special instruction that begins with a # symbol and is processed by the preprocessor before the actual compilation of the code begins. These directives tell the preprocessor to perform specific tasks, such as including files, defining macros, or conditionally compiling code. The preprocessor modifies the source code, which is then passed to the compiler.
+---
 
-COUT:In C++, cout is an object of the ostream class, defined in the <iostream> header, used to output data to the standard output stream, typically the console or terminal. It is part of the C++ Standard Library and is used with the << operator to print text, numbers, or other data types.
+### Theory
 
-USING STANDARD NAMESPACE:In C++, the using namespace std; statement is a directive that allows you to use names (like cout, cin, string, etc.) from the std (standard) namespace without explicitly prefixing them with std::. The std namespace contains the C++ Standard Library's functions, classes, and objects, such as those defined in <iostream>, <string>, <vector>, etc.
+The Hello World program demonstrates the use of the `cout` function. To enable this, the necessary header file `iostream` is included.
 
-//CALCULATOR PROGRAM
+#### iostream
 
-Aim-To study the basic cin /cout and basic mathematical operations
-Apparatus-Programiz/VS code
+In C++, `iostream` is a header file in the Standard Library that provides input and output functionality. It includes:
 
-THEORY:
-We learn here to initialize variables.
-So we can declare float integers/normal integers etc
+- `cin`: for reading input (keyboard)
+- `cout`: for displaying output (console)
 
-ALGORITHM:
-Initialize two variables a and b
+#### #include (Preprocessor Directive)
 
-They can be of data type int,float etc
+`#include` is a preprocessor directive in C++. It tells the compiler to include the contents of another file (like `iostream`) before actual compilation. Preprocessor directives begin with `#` and are processed before the compilation phase.
 
-Take input for these variables using cin
+#### cout
 
-Use normal + for addition ,- for subtraction , * for multiplication and / for division
-Store the addition/division etc in diffrent variables 
+`cout` is an object of the `ostream` class. It is used with the insertion operator `<<` to print text, numbers, or other data to the console.
 
-Print the outputs using cout on these variables
+#### using namespace std
 
-THEORY:
+This statement allows you to use elements from the standard namespace (like `cout`, `cin`, etc.) without prefixing them with `std::`. The `std` namespace includes all standard functions and classes from the C++ library.
 
-CIN:In C++, cin is an object of the iostream class, defined in the <iostream> header, used to read input from the standard input stream, typically the keyboard. It is part of the C++ Standard Library and is used with the >> operator to extract data (e.g., integers, floats, strings) from the input stream.
+---
 
-ENDL:In C++, endl is a manipulator defined in the <iostream> header within the std namespace. It is used with the cout object to insert a newline character (\n) into the output stream and flush the output buffer to ensure the output is immediately displayed on the console.
+## Program 2: Calculator Program
 
-CONCLUSION:
-From these two programs we learn about standard input/output functions.
-Also we learn about initialization of variables.
-We also learn about terms like endl,preproccessor directives.
+**Aim:** To study the basic `cin` / `cout` usage and basic mathematical operations  
+**Apparatus:** Programiz / VS Code
 
+---
 
+### Algorithm
 
+1. Initialize two variables `a` and `b`  
+2. Variables can be of `int`, `float`, etc.  
+3. Take input from the user using `cin`  
+4. Perform operations:  
+   - `+` for addition  
+   - `-` for subtraction  
+   - `*` for multiplication  
+   - `/` for division  
+5. Store each result in a separate variable  
+6. Output results using `cout`
 
+---
 
+### Theory
 
+#### cin
 
+`cin` is an object of the `istream` class (from the `iostream` header). It is used with the extraction operator `>>` to get input from the user through the keyboard.
 
+#### endl
 
+`endl` is a manipulator that inserts a newline character (`\n`) into the output stream and flushes the buffer. It ensures the output is displayed immediately.
 
+---
 
+## Conclusion
 
+Through the Hello World and Calculator programs, we learn the foundational elements of C++:
+
+- How to use `#include`, `cout`, `cin`, and `endl`
+- How to initialize and use variables
+- How to perform basic input/output operations
+- The importance of preprocessor directives and namespaces
+
+These concepts form the base for writing more complex C++ programs.
