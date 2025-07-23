@@ -1,4 +1,4 @@
-HELLO WORLD PROGRAM
+//HELLO WORLD PROGRAM
 
 Aim-To study the basic input/output structure and basic structure of a C++ code
 Apparatus-Programiz/VS code
@@ -15,7 +15,7 @@ COUT:In C++, cout is an object of the ostream class, defined in the <iostream> h
 
 USING STANDARD NAMESPACE:In C++, the using namespace std; statement is a directive that allows you to use names (like cout, cin, string, etc.) from the std (standard) namespace without explicitly prefixing them with std::. The std namespace contains the C++ Standard Library's functions, classes, and objects, such as those defined in <iostream>, <string>, <vector>, etc.
 
-CALCULATOR PROGRAM
+//CALCULATOR PROGRAM
 
 Aim-To study the basic cin /cout and basic mathematical operations
 Apparatus-Programiz/VS code
