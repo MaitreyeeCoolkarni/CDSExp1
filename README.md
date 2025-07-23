@@ -3,7 +3,9 @@ HELLO WORLD PROGRAM
 Aim-To study the basic input/output structure and basic structure of a C++ code
 Apparatus-Programiz/VS code
 
-THEORY:The hello world program uses cout function
+THEORY:
+
+The hello world program uses cout function
 The library needed for it (iostream) has been included in it
 IOSTREAM:In C++, iostream is a header file in the C++ Standard Library that provides functionality for input and output operations. It defines objects and classes for handling input from sources like the keyboard (standard input) and output to destinations like the console (standard output).
 
