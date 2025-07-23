@@ -21,7 +21,7 @@ Aim-To study the basic cin /cout and basic mathematical operations
 Apparatus-Programiz/VS code
 
 THEORY:
-We learn here to initialize variables 
+We learn here to initialize variables.
 So we can declare float integers/normal integers etc
 
 ALGORITHM:
