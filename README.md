@@ -24,9 +24,13 @@ So we can declare float integers/normal integers etc
 
 ALGORITHM:
 Initialize two variables a and b
+
 They can be of data type int,float etc
+
 Take input for these variables using cin
+
 Use normal + for addition ,- for subtraction , * for multiplication and / for division
+
 Print the outputs using cout
 
 THEORY:
